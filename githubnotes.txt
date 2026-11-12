@@ -1,0 +1,24 @@
+GitHub notes usually refers to study cheat sheets for learning Git and GitHub, using a GitHub repository to store personal Markdown notes, or the built-in git notes command. [1] (https://gist.github.com/8205385), [2] (https://www.linkedin.com/posts/anshulrautela_git-github-simplified-activity-7394766423639621632-HF8w), [3] (https://www.youtube.com/watch?v=vLEWvkEnTd4&t=290), [4] (https://mfmfazrin.medium.com/github-markdown-the-ultimate-note-taking-combo-for-developers-130365c477a9), [5] (https://dev.to/shrsv/git-notes-unraveled-history-mechanics-and-practical-uses-25i9)
+
+1. Quick Git & GitHub Study Notes
+
+Git is a local version control tool that tracks code snapshots, while GitHub is an online platform for hosting repositories and collaborating. [1] (https://www.w3schools.com/git/git_intro.asp), [2] (https://www.youtube.com/watch?v=8944biinHgE)
+• Setup & Cloning. Run git init to start a new local repository, or use git clone [url] to download an existing project from GitHub. [1] (https://www.scribd.com/document/1016911065/GitHub-Notes), [2] (https://gist.github.com/8205385)
+• Daily Workflow. Check changes with git status, stage files with git add ., save a snapshot with git commit -m "message", and upload it using git push origin main. [1] (https://www.scribd.com/document/1016911065/GitHub-Notes)
+• Syncing Updates. Use git pull origin main to fetch and merge the latest changes from the remote repository to your computer. [1] (https://gist.github.com/8205385), [2] (https://www.scribd.com/document/1016911065/GitHub-Notes)
+• Branching & Collaboration. Create an isolated workspace using git checkout -b [branch-name] to build features safely. Push the branch and open a Pull Request (PR) on GitHub to review and merge your work. [1] (https://andrewpwheeler.com/2024/01/14/getting-started-with-github-notes/), [2] (https://www.youtube.com/watch?v=8944biinHgE), [3] (https://gist.github.com/8205385)
+• More Study Resources. You can browse curated developer cheat sheets under the GitHub git-and-github-notes topic or review structured guides on W3Schools Git Introduction. [1] (https://github.com/topics/git-and-github-notes), [2] (https://www.w3schools.com/git/git_intro.asp)
+
+2. Using GitHub for Personal Note-Taking
+
+Many developers store Markdown (.md) files in a private GitHub repository to get free cloud backup and full version history. [1] (https://www.youtube.com/watch?v=vLEWvkEnTd4&t=290), [2] (https://mfmfazrin.medium.com/github-markdown-the-ultimate-note-taking-combo-for-developers-130365c477a9)
+• Private Repository. Create a private repo on GitHub and sync a local folder using the command line or GitHub Desktop.
+• Open-Source Note Apps. If you want a dedicated interface that syncs with Git or Markdown, check out popular projects on the GitHub note-taking topic like AppFlowy, Joplin, Logseq, and Foam. [1] (https://www.youtube.com/watch?v=vLEWvkEnTd4&t=290), [2] (https://github.com/topics/note-taking)
+
+3. The git notes Command
+
+Git includes a native feature called git notes that lets you attach extra metadata—such as test results or review comments—to a commit without changing its commit hash. [1] (https://dev.to/shrsv/git-notes-unraveled-history-mechanics-and-practical-uses-25i9)
+• Add a Note. Run git notes add -m "Your note" to annotate your most recent commit.
+• View Notes. Run git log to see attached notes displayed underneath the standard commit message. [1] (https://dev.to/shrsv/git-notes-unraveled-history-mechanics-and-practical-uses-25i9)
+Are you looking for interview revision notes on Git commands, help setting up a personal note-taking repo, or open-source note apps on GitHub? Let me know so I can share the exact commands or links you need.
+
